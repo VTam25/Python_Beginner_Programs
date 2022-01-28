@@ -68,7 +68,6 @@ def empty_spaces():
     else:
         return True
 def new_game():
-
     global player
     player = random.choice(players)
     label.config(text=player+" turn")
